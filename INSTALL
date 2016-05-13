@@ -1,0 +1,11 @@
+sudo apt-get install cmake
+		build-essential
+		chromium
+		kdevelop4
+		vim
+		sogoupinyin
+		git
+		svn---subversion
+		nginx
+
+PS1="\[\e[36;1m\]\u:\w$ \[\e[0m\]"	.bashrc
