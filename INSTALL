@@ -4,8 +4,9 @@ sudo apt-get install cmake
 		kdevelop4
 		vim
 		sogoupinyin
+		lantern
 		git
 		svn---subversion
-		nginx
+		nginx(pcre:libpcre3-dev,zlib:zlib1g-dev,openssl:libssl-dev)
 
 PS1="\[\e[36;1m\]\u:\w$ \[\e[0m\]"	.bashrc
