@@ -1,8 +1,9 @@
-sudo apt-get install cmake
+		update, upgrade	
+		cmake
 		build-essential
 		chromium
 		kdevelop4
-		vim
+		vim(github-Vundle)
 		sogoupinyin
 		lantern
 		git
