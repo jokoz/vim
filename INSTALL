@@ -11,3 +11,8 @@
 		nginx(pcre:libpcre3-dev,zlib:zlib1g-dev,openssl:libssl-dev)
 
 PS1="\[\e[36;1m\]\u:\w$ \[\e[0m\]"	.bashrc
+
+安装系统之后，需要设置Software Sources，然后update/upgrade，如此一般可以解决安装软件中无法解决依赖关系问题
+
+vim安装后安装插件Vundle，然后利用此插件安装YouCompleteMe，安装过程按照插件包中的说明执行。YouCompleteMe插件较大，安装时间较长，完成时会提醒。
+编译YouCompleteMe时，若出现无法找到Python库，则找到库libpython2.x.a/.so,libpython3.x.a/.so,,,通过 ln -s 建立软链接到 /usr/lib目录下，一般可以解决此问题。
